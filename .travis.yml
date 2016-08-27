@@ -1,2 +1,2 @@
 language: java
-script: mvn jetty run
+script: mvn clean install
