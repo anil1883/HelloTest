@@ -3,3 +3,5 @@ script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 deploy:
   provider: heroku
   app: anmolparashar
+  api_key:
+    secure: "YOUR ENCRYPTED API KEY"
