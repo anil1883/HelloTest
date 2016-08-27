@@ -1,7 +1,5 @@
 language: java
 script: mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 deploy:
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    branch: develop
+  provider: heroku
+  app: HelloTest
