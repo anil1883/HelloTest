@@ -55,11 +55,12 @@
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.2.11.v20150529</version>
-				 <configuration>
-                                  <webAppConfig>
-                                   <contextPath>/${project.name}</contextPath>
-                                 </webAppConfig>
-                               </configuration>
+				<configuration>
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<webApp>
+						<contextPath>/spring3</contextPath>
+					</webApp>
+				</configuration>
 			</plugin>
 
 			<plugin>
