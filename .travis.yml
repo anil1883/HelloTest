@@ -4,4 +4,4 @@ deploy:
   provider: heroku
   app: anmolparashar
   api_key:
-    secure: "25eba5df-c8cd-48c6-a45d-054ede2201ae"
+    secure: "362d5905-7aee-4c66-9989-ee5a118af09a"
